@@ -13,8 +13,8 @@ const config = {
     },
 
     production: {
-      applicationId: 'TODO',
-      url: 'https://your_app_hostname.com',
+      applicationId: 'cl46u4u0r14245201nlx953v75i',
+      url: 'https://commercetool-learning.pages.dev/',
     },
   },
 
@@ -31,11 +31,35 @@ const config = {
   },
 
   submenuLinks: [
+    // {
+    //   uriPath: 'channels',
+    //   defaultLabel: 'Channels',
+    //   labelAllLocales: [],
+    //   permissions: [PERMISSIONS.View],
+    // },
     {
-      uriPath: 'channels',
-      defaultLabel: 'Channels',
-      labelAllLocales: [],
-      permissions: [PERMISSIONS.View],
+      uriPath: 'product-sync',
+      defaultLabel: 'Product Sync',
+    },
+    {
+      uriPath: 'category-sync',
+      defaultLabel: 'Category Sync',
+    },
+    {
+      uriPath: 'inventory-sync',
+      defaultLabel: 'Inventory Sync',
+    },
+    {
+      uriPath: 'store-locator-grid',
+      defaultLabel: 'Store Locator Grid',
+    },
+    {
+      uriPath: 'store-locator-sync',
+      defaultLabel: 'Store Locator Sync',
+    },
+    {
+      uriPath: 'fluent-commerce-log',
+      defaultLabel: 'Fluent Commerce Log',
     },
   ],
 };

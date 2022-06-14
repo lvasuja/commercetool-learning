@@ -3,6 +3,8 @@ import { useIsAuthorized } from '@commercetools-frontend/permissions';
 import { PageUnauthorized } from '@commercetools-frontend/application-components';
 import Spacings from '@commercetools-uikit/spacings';
 import Channels from './components/channels';
+import Productsync from './components/productsync';
+import Categorysync from './components/categorysync';
 import Welcome from './components/welcome';
 import { PERMISSIONS } from './constants';
 
@@ -23,6 +25,20 @@ const ApplicationRoutes = () => {
         <Route path={`${match.path}/channels`}>
           {canView ? (
             <Channels linkToWelcome={match.url} />
+          ) : (
+            <PageUnauthorized />
+          )}
+        </Route>
+        <Route path={`${match.path}/product-sync`}>
+          {canView ? (
+            <Productsync linkToWelcome={match.url} />
+          ) : (
+            <PageUnauthorized />
+          )}
+        </Route>
+        <Route path={`${match.path}/category-sync`}>
+          {canView ? (
+            <Categorysync linkToWelcome={match.url} />
           ) : (
             <PageUnauthorized />
           )}
