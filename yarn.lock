@@ -1672,6 +1672,37 @@
     "@emotion/styled" "^11.3.0"
     prop-types "15.8.1"
 
+"@commercetools-uikit/calendar-time-utils@15.0.2":
+  version "15.0.2"
+  resolved "https://registrynpm.storefrontcloud.io/@commercetools-uikit%2fcalendar-time-utils/-/calendar-time-utils-15.0.2.tgz#12965917a379e156f27d81d316925243079194b0"
+  integrity sha512-RPO930UbIATAOnXF0nx5cM52DyBrN6DpAJHxc0QCPGJFaA1nqd4uK5258OPjmDCThkQZIOGghqmRWDLHgu1Dsw==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "@babel/runtime-corejs3" "^7.17.2"
+    "@commercetools-uikit/utils" "15.0.0"
+
+"@commercetools-uikit/calendar-utils@15.0.0":
+  version "15.0.0"
+  resolved "https://registrynpm.storefrontcloud.io/@commercetools-uikit%2fcalendar-utils/-/calendar-utils-15.0.0.tgz#7ae15c0752b5648d0135d3c9305fe3d9382aeac3"
+  integrity sha512-41j2zMHmTHFsA8HGzoXMUkQW+TZ9+7i0ePYXEmasqN1q9Z5GQRZBUbnXVBWfi0T3v+fjNJ7k40Qbd0nv8E9tOQ==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "@babel/runtime-corejs3" "^7.17.2"
+    "@commercetools-uikit/accessible-button" "15.0.0"
+    "@commercetools-uikit/design-system" "15.0.0"
+    "@commercetools-uikit/hooks" "15.0.0"
+    "@commercetools-uikit/icons" "15.0.0"
+    "@commercetools-uikit/input-utils" "15.0.0"
+    "@commercetools-uikit/secondary-icon-button" "15.0.0"
+    "@commercetools-uikit/spacings-inline" "15.0.0"
+    "@commercetools-uikit/text" "15.0.0"
+    "@commercetools-uikit/tooltip" "15.0.0"
+    "@commercetools-uikit/utils" "15.0.0"
+    "@emotion/react" "^11.4.0"
+    "@emotion/styled" "^11.3.0"
+    prop-types "15.8.1"
+    react-select "5.3.0"
+
 "@commercetools-uikit/card@^15.0.0":
   version "15.0.0"
   resolved "https://registrynpm.storefrontcloud.io/@commercetools-uikit%2fcard/-/card-15.0.0.tgz#d2be74606592309e22276ffcd25d17ed629d31c5"
@@ -1717,6 +1748,52 @@
     lodash "4.17.21"
     prop-types "15.8.1"
     react-intl "^5.24.6"
+
+"@commercetools-uikit/date-field@^15.0.2":
+  version "15.0.2"
+  resolved "https://registrynpm.storefrontcloud.io/@commercetools-uikit%2fdate-field/-/date-field-15.0.2.tgz#56c76cc2dd54aeab76769c783d1d09f3c50bc2a6"
+  integrity sha512-uoaqrbDZfhZrvisC6OonDL3Q3FudCFbCit2gX+BRLgyQY5iKp7ANz2+xEp7MR3hUCFQbk5tnn6Y9Ua7IW2V5gA==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "@babel/runtime-corejs3" "^7.17.2"
+    "@commercetools-uikit/constraints" "15.0.0"
+    "@commercetools-uikit/date-input" "15.0.2"
+    "@commercetools-uikit/design-system" "15.0.0"
+    "@commercetools-uikit/field-errors" "15.0.0"
+    "@commercetools-uikit/field-label" "15.0.0"
+    "@commercetools-uikit/spacings" "15.0.0"
+    "@commercetools-uikit/utils" "15.0.0"
+    "@emotion/react" "^11.4.0"
+    "@emotion/styled" "^11.3.0"
+    prop-types "15.8.1"
+    react-intl "^5.24.6"
+
+"@commercetools-uikit/date-input@15.0.2":
+  version "15.0.2"
+  resolved "https://registrynpm.storefrontcloud.io/@commercetools-uikit%2fdate-input/-/date-input-15.0.2.tgz#6796487f3fc21c42040462447f83460574a6e416"
+  integrity sha512-P1odwbwyPTbmYtAFOawSsO3ncCJy43cFwKxhZOlPmBLJL33bYlMVC/IBbhFySpVUQBCQ9BjN4/r3pRPMBJfA4A==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "@babel/runtime-corejs3" "^7.17.2"
+    "@commercetools-uikit/accessible-button" "15.0.0"
+    "@commercetools-uikit/calendar-time-utils" "15.0.2"
+    "@commercetools-uikit/calendar-utils" "15.0.0"
+    "@commercetools-uikit/constraints" "15.0.0"
+    "@commercetools-uikit/design-system" "15.0.0"
+    "@commercetools-uikit/hooks" "15.0.0"
+    "@commercetools-uikit/icons" "15.0.0"
+    "@commercetools-uikit/secondary-icon-button" "15.0.0"
+    "@commercetools-uikit/select-utils" "15.0.0"
+    "@commercetools-uikit/spacings-inline" "15.0.0"
+    "@commercetools-uikit/text" "15.0.0"
+    "@commercetools-uikit/tooltip" "15.0.0"
+    "@commercetools-uikit/utils" "15.0.0"
+    "@emotion/react" "^11.4.0"
+    "@emotion/styled" "^11.3.0"
+    downshift "6.1.7"
+    prop-types "15.8.1"
+    react-is "17.0.2"
+    warning "4.0.3"
 
 "@commercetools-uikit/design-system@15.0.0", "@commercetools-uikit/design-system@^15.0.0":
   version "15.0.0"
@@ -2235,6 +2312,24 @@
     lodash "4.17.21"
     prop-types "15.8.1"
     warning "4.0.3"
+
+"@commercetools-uikit/tooltip@15.0.0":
+  version "15.0.0"
+  resolved "https://registrynpm.storefrontcloud.io/@commercetools-uikit%2ftooltip/-/tooltip-15.0.0.tgz#95af79d3dc49d204619731fc8673daf67a194a12"
+  integrity sha512-viKHKP3OxoiNtAFR/TXA1jaN7L2+5GjHuTSjHWL1nflv44SEeqQMGj7UY4dIReD/sBQYjDuwbNz9SAgktP0j6A==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "@babel/runtime-corejs3" "^7.17.2"
+    "@commercetools-uikit/constraints" "15.0.0"
+    "@commercetools-uikit/design-system" "15.0.0"
+    "@commercetools-uikit/hooks" "15.0.0"
+    "@commercetools-uikit/utils" "15.0.0"
+    "@emotion/react" "^11.4.0"
+    "@emotion/styled" "^11.3.0"
+    lodash "4.17.21"
+    prop-types "15.8.1"
+    react-is "17.0.2"
+    use-popper "1.1.6"
 
 "@commercetools-uikit/utils@15.0.0", "@commercetools-uikit/utils@^15.0.0":
   version "15.0.0"
@@ -5756,6 +5851,11 @@ depd@~1.1.2:
   version "1.1.2"
   resolved "https://registrynpm.storefrontcloud.io/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+
+dequal@1.0.0:
+  version "1.0.0"
+  resolved "https://registrynpm.storefrontcloud.io/dequal/-/dequal-1.0.0.tgz#41c6065e70de738541c82cdbedea5292277a017e"
+  integrity sha512-/Nd1EQbQbI9UbSHrMiKZjFLrXSnU328iQdZKPQf78XQI6C+gutkFUeoHpG5J08Ioa6HeRbRNFpSIclh1xyG0mw==
 
 destroy@1.2.0:
   version "1.2.0"
@@ -9929,6 +10029,11 @@ plur@^4.0.0:
   dependencies:
     irregular-plurals "^3.2.0"
 
+popper.js@1.15.0:
+  version "1.15.0"
+  resolved "https://registrynpm.storefrontcloud.io/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
+  integrity sha512-w010cY1oCUmI+9KwwlWki+r5jxKfTFDVoadl7MSrIujHU5MJ5OR6HTDj6Xo8aoR/QsA56x8jKjA59qGH4ELtrA==
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registrynpm.storefrontcloud.io/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -12103,6 +12208,13 @@ use-composed-ref@^1.0.0:
   resolved "https://registrynpm.storefrontcloud.io/use-composed-ref/-/use-composed-ref-1.3.0.tgz#3d8104db34b7b264030a9d916c5e94fbe280dbda"
   integrity sha512-GLMG0Jc/jiKov/3Ulid1wbv3r54K9HlMW29IWcDFPEqFkSO2nS0MuefWgMJpeHQ9YJeXDL3ZUF+P3jdXlZX/cQ==
 
+use-deep-compare@0.1.0:
+  version "0.1.0"
+  resolved "https://registrynpm.storefrontcloud.io/use-deep-compare/-/use-deep-compare-0.1.0.tgz#7fd775047ab7126dfc11e8c19f6926b3112c03d0"
+  integrity sha512-WZG0iTvyo+6csYuCfoFxpYSK5nAifyO4jVia+yJTSooOo8EurzgzCE8ZMIcVpRQOwqolF0Otve94DrdGNYynFA==
+  dependencies:
+    dequal "1.0.0"
+
 use-isomorphic-layout-effect@^1.1.1:
   version "1.1.2"
   resolved "https://registrynpm.storefrontcloud.io/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.2.tgz#497cefb13d863d687b08477d9e5a164ad8c1a6fb"
@@ -12114,6 +12226,14 @@ use-latest@^1.0.0:
   integrity sha512-xA+AVm/Wlg3e2P/JiItTziwS7FK92LWrDB0p+hgXloIMuVCeJJ8v6f0eeHyPZaJrM+usM1FkFfbNCrJGs8A/zw==
   dependencies:
     use-isomorphic-layout-effect "^1.1.1"
+
+use-popper@1.1.6:
+  version "1.1.6"
+  resolved "https://registrynpm.storefrontcloud.io/use-popper/-/use-popper-1.1.6.tgz#51d578084d92dd941dda466dea4cb0c3d2c5379b"
+  integrity sha512-iinEv3/meG+hdN/zcIKzdX/oa7b2xj8K/F1cckCeWTUE2Ne96YrXQqVVkenOOUky2vHyyHwUxx74pyP2SNgZUg==
+  dependencies:
+    popper.js "1.15.0"
+    use-deep-compare "0.1.0"
 
 use-sync-external-store@^1.0.0:
   version "1.1.0"
