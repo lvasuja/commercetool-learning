@@ -5,6 +5,10 @@ import Spacings from '@commercetools-uikit/spacings';
 import Channels from './components/channels';
 import Productsync from './components/productsync';
 import Categorysync from './components/categorysync';
+import Storelocatorgrid from './components/storelocatorgrid';
+import Inventorysync from './components/inventorysync';
+import Storelocatorsync from './components/storelocatorsync';
+import Fluentcommercelog from './components/fluentcommercelog';
 import Welcome from './components/welcome';
 import { PERMISSIONS } from './constants';
 
@@ -36,6 +40,7 @@ const ApplicationRoutes = () => {
             <PageUnauthorized />
           )}
         </Route>
+    
         <Route path={`${match.path}/category-sync`}>
           {canView ? (
             <Categorysync linkToWelcome={match.url} />
@@ -43,6 +48,39 @@ const ApplicationRoutes = () => {
             <PageUnauthorized />
           )}
         </Route>
+
+        <Route path={`${match.path}/store-locator-grid`}>
+          {canView ? (
+            <Storelocatorgrid linkToWelcome={match.url} />
+          ) : (
+            <PageUnauthorized />
+          )}
+        </Route>
+
+        <Route path={`${match.path}/inventory-sync`}>
+          {canView ? (
+            <Inventorysync linkToWelcome={match.url} />
+          ) : (
+            <PageUnauthorized />
+          )}
+        </Route>
+
+        <Route path={`${match.path}/store-locator-sync`}>
+          {canView ? (
+            <Storelocatorsync linkToWelcome={match.url} />
+          ) : (
+            <PageUnauthorized />
+          )}
+        </Route>
+
+        <Route path={`${match.path}/fluent-commerce-log`}>
+          {canView ? (
+            <Fluentcommercelog linkToWelcome={match.url} />
+          ) : (
+            <PageUnauthorized />
+          )}
+        </Route>
+        
         <Route>
           <Welcome />
         </Route>
